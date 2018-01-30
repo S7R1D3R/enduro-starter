@@ -1,0 +1,11 @@
+define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
+    return "active";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
+
+  return "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <!-- Required meta tags -->\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n  <title>CHANGEME</title>\n\n  <!-- Bootstrap CSS -->\n  <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\n</head>\n\n<body>\n\n  <!-- Navbar -->\n  <nav class=\"navbar\">\n\n    <div class=\"navbar-brand\">\n\n      <a class=\"navbar-item\" href=\"http://bulma.io\">\n        <img src=\"http://bulma.io/images/bulma-logo.png\" alt=\"Bulma: a modern CSS framework based on Flexbox\" width=\"112\" height=\"28\">\n      </a>\n\n    </div>\n\n    <div class=\"navbar-burger\" data-target=\"navMenu\">\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n\n    <div class=\"navbar-menu\" id=\"navMenu\">\n      <!-- navbar-start, navbar-end... -->\n\n      <div class=\"navbar-start\">\n\n      </div>\n\n      <div class=\"navbar-end\">\n\n        <a href=\"/\" class=\"navbar-item "
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.active : depth0)) != null ? stack1.home : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\">\n            Home\n        </a>\n\n        <a href=\"/blog\" class=\"navbar-item "
+    + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.active : depth0)) != null ? stack1.blog : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + "\">\n            Blog\n        </a>\n\n      </div>\n    </div>\n  </nav>\n\n  ";
+},"useData":true}); });
